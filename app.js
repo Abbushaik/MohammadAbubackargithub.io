@@ -1,3 +1,13 @@
+/*Pre loader Code Starts */
+function loader(){
+    document.querySelector('.loader-container').classList.add('fade-out');
+}
+window.addEventListener("load",function(){
+    setInterval(loader,1500);
+});
+/*Pre loader ends */
+
+
 /*Hamburger Code Starts*/
 const openMenu = document.querySelector("#menu");
 const navbar = document.querySelector(".navbar");
