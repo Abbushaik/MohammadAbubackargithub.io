@@ -32,7 +32,7 @@
     background: #420177;
   }
 
-  /*preloader
+  /*preloader starts*/
   .loader-container
   {
     position:fixed;
@@ -45,10 +45,12 @@
     align-items:center;
     height:100%;
     width:100%;
-  }*/
-  /*.loader-container.fade-out{
+  }
+  .loader-container.fade-out{
     top: -120%;
-  }*/
+  }
+  /*Pre loader edns */
+
   /* navbar starts */
   header{
     position: fixed;
